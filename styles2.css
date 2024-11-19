@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #004a7c; 
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin-left: 1.5rem;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
+
+.datos {
+    list-style: none;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.datos li {
+    margin-bottom: 0.5rem;
+}
